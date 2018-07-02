@@ -1,0 +1,16 @@
+bootstrap.memory_lock: false
+cluster.name: "docker-cluster"
+
+http.port: 9200
+transport.tcp.port: 9300
+transport.host=0.0.0.0
+node.data: true
+node.master: true
+node.name: "node_1"
+node.max_local_storage_nodes: 2
+discovery.zen.minimum_master_nodes: 1
+discovery.zen.ping.unicast.hosts: ["127.0.0.1:9300"]
+path.data: C:\ProgramData\Elastic\Elasticsearch\data
+path.logs: C:\ProgramData\Elastic\Elasticsearch\logs
+#xpack.security.transport.filter.allow: "172.22.28.146"
+xpack.security.enabled: false
