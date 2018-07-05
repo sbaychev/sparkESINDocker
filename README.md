@@ -1,5 +1,5 @@
 # Dockerized SparkDriver and ES #
 
 -
-The SparkDriver.java works under the assumption one has already an ongoing and working ES instance
-Basic Auth for ES needs to be Disabled, by either not installing the X-Pack (Disabling it) on installation
+The SparkDriver.java works with the /elasticsearch based windows_start_es.bat file.
+- windows_start_es.bat - creates the ElasticSearch 5.6.6 container and starts it
