@@ -30,11 +30,11 @@ Sample Walk Through?
 -
 
 1. Execute `windows_start_es.bat` or `unix_start_es.sh`
-2. Within the root directory of the project execute
-3. [TODO] Execute script file xyz or wtp and the SparkDriver gets to run.. for now via the IDE run the SparkDriver
+2. [TODO] Execute script file xyz or wtp and the SparkDriver gets to run.. 
+2. * For now via the IDE run the SparkDriver and all the magic would happen!
 
 Et Voaila!
 
-curl http://localhost:9200/episodes/_search | json_pp
+Use the below given and would see some nice json command line readable `Doctor Who` Episodes funtopia!!
 
-- > and would see some nice json command line readable `Doctor Who` Episodes funtopia!!
+curl http://localhost:9200/episodes/_search | json_pp
