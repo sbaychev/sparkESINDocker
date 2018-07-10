@@ -37,4 +37,4 @@ Et Voaila!
 
 Use the below given and would see some nice json command line readable `Doctor Who` Episodes funtopia!!
 
-curl http://localhost:9200/episodes/_search | json_pp
+`curl http://localhost:9200/episodes/_search | json_pp`
