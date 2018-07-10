@@ -1,6 +1,6 @@
 # Dockerized SparkDriver and ES #
 
-#What does this for you?
+#What does this do for you?
 -
 1. Runs via a .bat `windows_start_es` or .sh `unix_start_es` script file an ElasticSearch version 5.6.6 instance via Docker using a Dockerfile and cmd arguments.
 The instance runs as single node "cluster", disabled X-Pack security,`esdata` named volume that has the data and logs in pre-defined well known locations
