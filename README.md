@@ -31,7 +31,7 @@ Sample Walk Through?
 
 1. Execute `windows_start_es.bat` or `unix_start_es.sh`
 2. [TODO] Execute script file xyz or wtp and the SparkDriver gets to run.. 
-2. * For now via the IDE run the SparkDriver and all the magic would happen!
+!! For now via the IDE run the SparkDriver and all the magic would happen !!
 
 Et Voaila!
 
