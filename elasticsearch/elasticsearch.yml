@@ -1,14 +1,13 @@
+bootstrap.memory_lock: false
 cluster.name: "docker-cluster"
-network.host: 0.0.0.0
 
-# minimum_master_nodes need to be explicitly
-# set to 1 as it allows single node clusters
+http.port: 9200
+transport.tcp.port: 9300
+network.host: 0.0.0.0
+node.data: true
+node.master: true
+node.name: "node_1"
+node.max_local_storage_nodes: 2
 discovery.zen.minimum_master_nodes: 1
-xpack.security.transport.ssl.enabled: false
-xpack.security.http.ssl.enabled: true
-xpack.security.transport.ssl.verification_mode: none
-xpack.security.authc:
-  anonymous:
-    username: sb
-    roles: sb_admin
-    authz_exception: false
+discovery.zen.ping.unicast.hosts: ["127.0.0.1:9300"]
+xpack.security.enabled: false
