@@ -3,6 +3,9 @@ package data;
 import java.io.Serializable;
 import java.util.Objects;
 
+/**
+ * Data Class
+ */
 public final class Episodes implements Serializable {
 
     private static final long serialVersionUID = 7993796581494284298L;
